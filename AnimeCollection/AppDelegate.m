@@ -7,20 +7,36 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
-@property (weak) IBOutlet NSWindow *window;
-@end
+//#import "PreferencesController.h"
+#import "NSPreferences.h"
+#import "AppPreferences.h"
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+- (IBAction)clickPreferencesBut:(id)sender {
+//    if(!self.preferences) {
+//        self.preferences = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
+//    }
+//    [self.preferences showWindow:nil];
+    [NSPreferences setDefaultPreferencesClass: [AppPreferences class]];
+    [[NSPreferences sharedPreferences] showPreferencesPanel];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (IBAction)showMessage:(id)sender {
+    
+//    NSAlert *alert = [[NSAlert alloc] init];
+//    [alert addButtonWithTitle:@"Yes"];
+//    [alert addButtonWithTitle:@"No"];
+//    [alert setMessageText:@"Message"];
+//    [alert setInformativeText:@"info"];
+//    [alert setAlertStyle:NSWarningAlertStyle];
+//    
+//    long result = [alert runModal];
+//    if(result == NSAlertFirstButtonReturn) {
+//        NSLog(@"Click Yes!");
+//    } else {
+//        NSLog(@"Click No!");
+//    }
 }
 
 @end

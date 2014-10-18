@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527B436219EE330900CAFBD9 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B436119EE330900CAFBD9 /* AppPreferences.m */; };
+		527B436619EE33D200CAFBD9 /* GeneralPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B436419EE33D200CAFBD9 /* GeneralPreferences.m */; };
+		527B436719EE33D200CAFBD9 /* GeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527B436519EE33D200CAFBD9 /* GeneralPreferences.xib */; };
+		527B436A19EE38E300CAFBD9 /* HotKeyPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 527B436919EE38E300CAFBD9 /* HotKeyPreferences.m */; };
+		527B436C19EE39A200CAFBD9 /* GeneralPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B436B19EE39A200CAFBD9 /* GeneralPreferences.png */; };
+		527B436E19EE39A800CAFBD9 /* HotKeyPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 527B436D19EE39A800CAFBD9 /* HotKeyPreferences.png */; };
+		527B437019EE3A7F00CAFBD9 /* HotKeyPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527B436F19EE3A7F00CAFBD9 /* HotKeyPreferences.xib */; };
+		527B437419EE401900CAFBD9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527B437319EE401900CAFBD9 /* CoreData.framework */; };
 		52804EC519E6E53800D50E8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52804EC419E6E53800D50E8E /* AppDelegate.m */; };
 		52804EC719E6E53800D50E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52804EC619E6E53800D50E8E /* main.m */; };
 		52804EC919E6E53800D50E8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52804EC819E6E53800D50E8E /* Images.xcassets */; };
 		52804ECC19E6E53800D50E8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52804ECA19E6E53800D50E8E /* MainMenu.xib */; };
 		52804ED819E6E53800D50E8E /* AnimeCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52804ED719E6E53800D50E8E /* AnimeCollectionTests.m */; };
+		52F8F77E19E841BD009253E3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8F77D19E841BD009253E3 /* Cocoa.framework */; };
+		52F8F78019E84200009253E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8F77F19E84200009253E3 /* WebKit.framework */; };
+		52F8F78219E84206009253E3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8F78119E84206009253E3 /* AppKit.framework */; };
+		52F8F78419E8421D009253E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8F78319E8421D009253E3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		527B435E19EE31E600CAFBD9 /* NSPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSPreferences.h; path = ../NSPreferences.h; sourceTree = "<group>"; };
+		527B435F19EE31E600CAFBD9 /* NSPreferencesModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSPreferencesModule.h; path = ../NSPreferencesModule.h; sourceTree = "<group>"; };
+		527B436019EE330900CAFBD9 /* AppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPreferences.h; sourceTree = "<group>"; };
+		527B436119EE330900CAFBD9 /* AppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPreferences.m; sourceTree = "<group>"; };
+		527B436319EE33D200CAFBD9 /* GeneralPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferences.h; sourceTree = "<group>"; };
+		527B436419EE33D200CAFBD9 /* GeneralPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferences.m; sourceTree = "<group>"; };
+		527B436519EE33D200CAFBD9 /* GeneralPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferences.xib; sourceTree = "<group>"; };
+		527B436819EE38E300CAFBD9 /* HotKeyPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotKeyPreferences.h; sourceTree = "<group>"; };
+		527B436919EE38E300CAFBD9 /* HotKeyPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotKeyPreferences.m; sourceTree = "<group>"; };
+		527B436B19EE39A200CAFBD9 /* GeneralPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GeneralPreferences.png; path = ../GeneralPreferences.png; sourceTree = "<group>"; };
+		527B436D19EE39A800CAFBD9 /* HotKeyPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HotKeyPreferences.png; path = ../HotKeyPreferences.png; sourceTree = "<group>"; };
+		527B436F19EE3A7F00CAFBD9 /* HotKeyPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotKeyPreferences.xib; sourceTree = "<group>"; };
+		527B437319EE401900CAFBD9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		52804EBE19E6E53800D50E8E /* AnimeCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52804EC219E6E53800D50E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52804EC319E6E53800D50E8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +60,10 @@
 		52804ED119E6E53800D50E8E /* AnimeCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52804ED619E6E53800D50E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52804ED719E6E53800D50E8E /* AnimeCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimeCollectionTests.m; sourceTree = "<group>"; };
+		52F8F77D19E841BD009253E3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		52F8F77F19E84200009253E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		52F8F78119E84206009253E3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		52F8F78319E8421D009253E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527B437419EE401900CAFBD9 /* CoreData.framework in Frameworks */,
+				52F8F78419E8421D009253E3 /* Foundation.framework in Frameworks */,
+				52F8F78219E84206009253E3 /* AppKit.framework in Frameworks */,
+				52F8F78019E84200009253E3 /* WebKit.framework in Frameworks */,
+				52F8F77E19E841BD009253E3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,11 +89,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5225828F19E98E1800523D46 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52804EC819E6E53800D50E8E /* Images.xcassets */,
+				52804ECA19E6E53800D50E8E /* MainMenu.xib */,
+				52804EC319E6E53800D50E8E /* AppDelegate.h */,
+				52804EC419E6E53800D50E8E /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		5225829319E98E8A00523D46 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				527B436D19EE39A800CAFBD9 /* HotKeyPreferences.png */,
+				527B436B19EE39A200CAFBD9 /* GeneralPreferences.png */,
+				527B435E19EE31E600CAFBD9 /* NSPreferences.h */,
+				527B435F19EE31E600CAFBD9 /* NSPreferencesModule.h */,
+				527B436019EE330900CAFBD9 /* AppPreferences.h */,
+				527B436119EE330900CAFBD9 /* AppPreferences.m */,
+				527B436319EE33D200CAFBD9 /* GeneralPreferences.h */,
+				527B436419EE33D200CAFBD9 /* GeneralPreferences.m */,
+				527B436519EE33D200CAFBD9 /* GeneralPreferences.xib */,
+				527B436819EE38E300CAFBD9 /* HotKeyPreferences.h */,
+				527B436919EE38E300CAFBD9 /* HotKeyPreferences.m */,
+				527B436F19EE3A7F00CAFBD9 /* HotKeyPreferences.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
 		52804EB519E6E53800D50E8E = {
 			isa = PBXGroup;
 			children = (
 				52804EC019E6E53800D50E8E /* AnimeCollection */,
 				52804ED419E6E53800D50E8E /* AnimeCollectionTests */,
+				52F8F78519E84234009253E3 /* Framework */,
 				52804EBF19E6E53800D50E8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,10 +141,8 @@
 		52804EC019E6E53800D50E8E /* AnimeCollection */ = {
 			isa = PBXGroup;
 			children = (
-				52804EC319E6E53800D50E8E /* AppDelegate.h */,
-				52804EC419E6E53800D50E8E /* AppDelegate.m */,
-				52804EC819E6E53800D50E8E /* Images.xcassets */,
-				52804ECA19E6E53800D50E8E /* MainMenu.xib */,
+				5225829319E98E8A00523D46 /* Preferences */,
+				5225828F19E98E1800523D46 /* Main */,
 				52804EC119E6E53800D50E8E /* Supporting Files */,
 			);
 			path = AnimeCollection;
@@ -109,6 +172,18 @@
 				52804ED619E6E53800D50E8E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52F8F78519E84234009253E3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				527B437319EE401900CAFBD9 /* CoreData.framework */,
+				52F8F78319E8421D009253E3 /* Foundation.framework */,
+				52F8F78119E84206009253E3 /* AppKit.framework */,
+				52F8F77F19E84200009253E3 /* WebKit.framework */,
+				52F8F77D19E841BD009253E3 /* Cocoa.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52804EC919E6E53800D50E8E /* Images.xcassets in Resources */,
+				527B436C19EE39A200CAFBD9 /* GeneralPreferences.png in Resources */,
+				527B437019EE3A7F00CAFBD9 /* HotKeyPreferences.xib in Resources */,
+				527B436E19EE39A800CAFBD9 /* HotKeyPreferences.png in Resources */,
 				52804ECC19E6E53800D50E8E /* MainMenu.xib in Resources */,
+				527B436719EE33D200CAFBD9 /* GeneralPreferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				52804EC719E6E53800D50E8E /* main.m in Sources */,
+				527B436A19EE38E300CAFBD9 /* HotKeyPreferences.m in Sources */,
+				527B436219EE330900CAFBD9 /* AppPreferences.m in Sources */,
 				52804EC519E6E53800D50E8E /* AppDelegate.m in Sources */,
+				527B436619EE33D200CAFBD9 /* GeneralPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +410,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AnimeCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -339,7 +424,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AnimeCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

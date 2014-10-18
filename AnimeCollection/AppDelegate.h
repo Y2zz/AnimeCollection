@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+//#import "PreferencesController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject //<NSApplicationDelegate>
 
+//@property (retain) PreferencesController *preferences;
 
 @end
 
